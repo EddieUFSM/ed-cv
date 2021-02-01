@@ -424,9 +424,10 @@ const Goals = () => {
                     <Chip label="BackEnd Pleno/Senior" style={{ margin: 5 }} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
-                    <Chip color="secondary" label="Com Disponibilidade para viajar" style={{ margin: 5 }} />
+                    <Chip color="secondary" label="Com disponibilidade para viajar" style={{ margin: 5 }} />
                     <Chip color="secondary" label="Apaixonado por desenvolver aplicações do zero" style={{ margin: 5 }} />
                     <Chip color="secondary" label="implementador de APIs" style={{ margin: 5 }} />
+                    <Chip color="secondary" label="Pretenção salarial a partir de R$ 8.000,00" style={{ margin: 5 }} />
                 </Grid>
             </Grid>
         </div >
