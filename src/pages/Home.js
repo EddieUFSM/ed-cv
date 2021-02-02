@@ -440,7 +440,7 @@ const XP = () => {
                     <Typography>
                         Conheça o UFSM ABRAÇA. Projeto ao qual fui coautor. Veja a matéria que saiu na Globo do Rio Grande do Sul - Santa Maria.
                     </Typography>
-                    <Link href="https://encurtador.com.br/qtwQ9">
+                    <Link href="http://g1.globo.com/rs/rio-grande-do-sul/videos/t/todos-os-videos/v/alunos-e-professores-da-ufsm-criam-projeto-e-ajudam-escolas-publicas-de-santa-maria/7244509/">
                         Matéria Globo
                     </Link>
                 </Grid>
