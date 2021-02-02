@@ -76,7 +76,7 @@ export default function Footer(props) {
                                 className={classes.block}
                                 target="_blank"
                             >
-                                Imagem de Fundo
+                                Background Image
                             </a>
                         </ListItem>
                     </List>

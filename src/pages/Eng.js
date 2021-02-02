@@ -196,7 +196,7 @@ const Abilities = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12}>
                     <Typography variant="h4">
-                        Áreas de atuação
+                        Expertise Areas
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
@@ -275,7 +275,8 @@ const Softwares = () => {
                     Javascript <ProgressLine level={100} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
-                    Metodologias Ágeis <ProgressLine level={85} />
+
+                    Agile Methodologies <ProgressLine level={85} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     PMBOK <ProgressLine level={75} />
@@ -354,10 +355,11 @@ const Languages = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     <Typography style={{ padding: 20 }}>
-                        Brazilian sign language
+                        Brazilian sign language (Libra)
                     </Typography>
                     alphabet <ProgressLine level={100} />
                     signs <ProgressLine level={20} />
+                    reading Signs <ProgressLine level={70} />
                 </Grid>
 
 
@@ -410,7 +412,7 @@ const XP = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant="subtitle1">
-                        Other Websites
+                        Other Websites I Made
                     </Typography>
                     <Typography>
                         Visit some of websites developed by me.
