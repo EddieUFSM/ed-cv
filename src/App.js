@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Route from './routes'
 import './App.css';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core'

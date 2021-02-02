@@ -125,7 +125,7 @@ const TopBar = (props) => {
                         </Tooltip>
                         <Tooltip title="
 Français" placement="top-start">
-                            <ButtonBase href='/frn' style={{ width: 32, height: 20, margin: 'auto 10px' }}>
+                            <ButtonBase href='/frc' style={{ width: 32, height: 20, margin: 'auto 10px' }}>
                                 <span
                                     className={classes.imageSrc}
                                     style={{

@@ -1,10 +1,7 @@
 import React, { Fragment, useState, useEffect } from 'react'
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, Toolbar, Typography, IconButton, Button, Box, Grid, Link, Avatar, Chip, ButtonBase, Tooltip } from "@material-ui/core"
-import { useHistory } from "react-router-dom"
-import { Menu, LinkedIn, Code, Web, Edit, Mail } from '@material-ui/icons'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faNodeJs } from '@fortawesome/free-brands-svg-icons'
+import { AppBar, Toolbar, Typography, IconButton, Grid, Link, Avatar, Chip, ButtonBase, Tooltip } from "@material-ui/core"
+import { LinkedIn, Code, Web, Edit, Mail } from '@material-ui/icons'
 import Parallax from "components/Parallax/Parallax.js"
 // nodejs library that concatenates classes
 import classNames from "classnames"
@@ -125,7 +122,7 @@ const TopBar = (props) => {
                         </Tooltip>
                         <Tooltip title="
 français" placement="top-start">
-                            <ButtonBase href='/frn' style={{ width: 32, height: 20, margin: 'auto 10px' }}>
+                            <ButtonBase href='/frc' style={{ width: 32, height: 20, margin: 'auto 10px' }}>
                                 <span
                                     className={classes.imageSrc}
                                     style={{
@@ -148,8 +145,7 @@ français" placement="top-start">
     )
 }
 const Header = (props) => {
-    const classes = useStyles();
-    const { ...rest } = props;
+    const classes = useStyles()
     return (
         <Parallax filter image={require("assets/img/landing-bg.jpg")}>
             <div className={classes.container}>
@@ -478,10 +474,7 @@ const Goals = () => {
     );
 }
 export default function Home(props, ref) {
-    const history = useHistory()
-    const [success, setSuccess] = useState(false)
-    const [error, setError] = useState(false)
-    const [message, setMessage] = useState('')
+
     const [scrolling, setScrolling] = useState(false);
 
     return (
