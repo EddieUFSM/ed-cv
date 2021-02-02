@@ -432,7 +432,7 @@ const XP = () => {
                     </Typography>
                     <Typography>
                         pprenez à connaître UFSM ABRAÇA. Projet dont j'ai été co-auteur. Voir l'article paru sur Globo à Rio Grande do Sul - Santa Maria. </Typography>
-                    <Link href="https://encurtador.com.br/qtwQ9">
+                    <Link href="http://g1.globo.com/rs/rio-grande-do-sul/videos/t/todos-os-videos/v/alunos-e-professores-da-ufsm-criam-projeto-e-ajudam-escolas-publicas-de-santa-maria/7244509/">
 
                         Nouvelles du Globe
                     </Link>

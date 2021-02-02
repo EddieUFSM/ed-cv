@@ -87,7 +87,7 @@ const TopBar = (props) => {
                 <Toolbar >
                     <Code />
                     <Typography className={classes.title}>
-                        FullStack Developer
+                        FULLSTACK-ENTWICKLER
                     </Typography>
                     <div className={classes.menuButton}>
                         <Tooltip title="Português" placement="top-start">
@@ -156,8 +156,7 @@ const Header = (props) => {
                         <h1 className={classes.title}>FullStack Dev.</h1>
 
                         <h4 className={classes.bodyText}>
-                            Working for at least 8 years as a developer of web solutions, I have a vast knowledge in MVC projects and API Restfull. Development of website portfolio, gamification, application of live video transmission, among others.
-                        </h4>
+                            Ich arbeite seit mindestens 8 Jahren als Entwickler von Weblösungen und habe umfangreiche Kenntnisse in MVC-Projekten und API Restfull. Entwicklung von Portfolio-Websites, Gamified, Live-Video-Streaming-Anwendung, unter anderem.    </h4>
                         <br />
 
                     </Grid>
@@ -196,13 +195,13 @@ const Abilities = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12}>
                     <Typography variant="h4">
-                        Áreas de atuação
+                        Fachgebiete
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
                     <InfoArea
                         title="FrontEnd"
-                        description="Over 8 years of experience working with CSS, 6 years with bootstrap and the last 4 years developing with React + Material Ui Design. I already have extensive experience in development focused on the web, but nothing prevents me from exploring other universes. I accept challenges."
+                        description="Über 8 Jahre Erfahrung in der Arbeit mit CSS, 6 Jahre mit Bootstrap und die letzten 4 Jahre mit React + Material Ui Design. Ich habe bereits umfangreiche Erfahrung in der Entwicklung, die sich auf das Web konzentriert, aber nichts hindert mich daran, andere Universen zu erkunden. Ich nehme Herausforderungen an."
                         icon={Web}
                         iconColor='primary'
                         vertical
@@ -211,7 +210,7 @@ const Abilities = () => {
                 <Grid item xs={12} sm={12} md={4}>
                     <InfoArea
                         title="BackEnd"
-                        description="I develop mainly with Javascript through the NodeJs interpreter. However, I am not limited to that. I have complete aptitude to work with other languages, despite being less familiar. I've worked with C, C #, C ++, Lua, ActionScript and Python. In the process of transition to typeScript and NextJs"
+                        description="Ich entwickle hauptsächlich mit Javascript über den NodeJs-Interpreter. Darauf bin ich jedoch nicht beschränkt. Ich bin vollkommen in der Lage, mit anderen Sprachen zu arbeiten, obwohl ich weniger vertraut bin. Ich habe mit C, C #, C ++, Lua, ActionScript und Python gearbeitet. Beim Übergang zu TypeScript"
                         icon={Code}
                         iconColor='primary'
                         vertical
@@ -220,7 +219,7 @@ const Abilities = () => {
                 <Grid item xs={12} sm={12} md={4}>
                     <InfoArea
                         title="Design"
-                        description="I also develop creative pieces. It is no longer my focus, but I believe it is a good differential to compose the team and break a branch from time to time, when necessary. I work with Photoshop, Illustrator and video editors. See extensive works at: https://www.behance.net/EddieStudioID"
+                        description="Ich entwickle auch kreative Stücke. Es ist nicht mehr mein Fokus, aber ich glaube, es ist ein guter Unterschied, das Team zusammenzustellen und bei Bedarf von Zeit zu Zeit einen Zweig zu brechen. Ich arbeite mit Photoshop, Illustrator und Video-Editoren. Ausführliche Arbeiten finden Sie unter: https://www.behance.net/EddieStudioID"
                         icon={Edit}
                         iconColor='primary'
                         vertical
@@ -237,8 +236,8 @@ const Contact = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12}>
                     <InfoArea
-                        title="contact me"
-                        description="Don't forget to chat with me. this is a brief summary. I am the best option to compose your team! Email: eduardo.srocha@hotmail.com"
+                        title="In Kontakt kommen"
+                        description="Vergiss nicht mit mir zu plaudern. Dies ist eine kurze Zusammenfassung. Ich bin die beste Option, um Ihr Team zusammenzustellen! E-Mail: eduardo.srocha@hotmail.com"
                         icon={Mail}
                         iconColor='primary'
                         vertical
@@ -256,7 +255,7 @@ const Softwares = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12}>
                     <Typography variant="h4">
-                        Technologies
+                        Technologie
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
@@ -275,7 +274,7 @@ const Softwares = () => {
                     Javascript <ProgressLine level={100} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
-                    Metodologias Ágeis <ProgressLine level={85} />
+                    Agile Methoden <ProgressLine level={85} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     PMBOK <ProgressLine level={75} />
@@ -325,39 +324,39 @@ const Languages = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant="h4">
-                        Languages
+                        Sprachen
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     <Typography style={{ padding: 20 }}>
-                        English
+                        Englisch
                     </Typography>
-                    Conversation <ProgressLine level={85} />
-                    Writing <ProgressLine level={60} />
-                    Reading <ProgressLine level={70} />
+                    Konversation <ProgressLine level={85} />
+                    Schreiben <ProgressLine level={60} />
+                    lesen <ProgressLine level={70} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     <Typography style={{ padding: 20 }}>
-                        French
+                        Französisch
                     </Typography>
-                    Conversation <ProgressLine level={40} />
-                    Writing <ProgressLine level={20} />
-                    Reading <ProgressLine level={30} />
+                    Konversation <ProgressLine level={40} />
+                    Schreiben <ProgressLine level={20} />
+                    lesen <ProgressLine level={30} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     <Typography style={{ padding: 20 }}>
-                        Germany
+                        Deutsche
                     </Typography>
-                    Conversation <ProgressLine level={45} />
-                    Writing <ProgressLine level={20} />
-                    Reading <ProgressLine level={35} />
+                    Konversation <ProgressLine level={45} />
+                    Schreiben <ProgressLine level={20} />
+                    lesen <ProgressLine level={35} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     <Typography style={{ padding: 20 }}>
-                        Brazilian sign language
+                        Pfund
                     </Typography>
-                    alphabet <ProgressLine level={100} />
-                    signs <ProgressLine level={20} />
+                    Alphabeto <ProgressLine level={100} />
+                    Wörter <ProgressLine level={20} />
                 </Grid>
 
 
@@ -373,14 +372,12 @@ const XP = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant="h4">
-                        Expirience
+                        Erfahrung
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant='body1'>
-                        * In my career, I carried out many projects. Developing Backend and FrontEnd, as well as Design and texts.
-                        I have my own CNPJ and so far I have worked on projects.
-                        Here is the link of the most complex projects that I'm working on or that I've worked on.
+                        * In meiner Karriere habe ich viele Projekte durchgeführt. Entwicklung von Backend und FrontEnd sowie von Design und Texten. Ich habe mein eigenes CNPJ und habe bisher an Projekten gearbeitet. Hier ist der Link der komplexesten Projekte, an denen ich arbeite oder an denen ich gearbeitet habe.
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
@@ -388,8 +385,7 @@ const XP = () => {
                         Top Streams
                     </Typography>
                     <Typography>
-                        APP description: TopsTreams is a Broadcaster Application where one user is the transmitter of the video and the others watch it. The Application is intended for players of footbal games. The application is already in use.
-                        Pay a visit to the application guided by me! Contact us to arrange. eduardo.srocha@hotmail.com
+                        APP-Beschreibung: TopsTreams ist eine Broadcaster-Anwendung, bei der ein Benutzer das Video überträgt und die anderen es ansehen. Die Anwendung ist für Spieler von Fußballspielen gedacht. Die Anwendung wird bereits verwendet. Besuchen Sie die von mir geleitete Bewerbung! Kontaktieren Sie uns, um dies zu arrangieren. eduardo.srocha@hotmail.com
                     </Typography>
                     <Link href="https://login.topstream.app/">
                         Topstreams APP
@@ -401,8 +397,7 @@ const XP = () => {
                     </Typography>
                     <Typography>
 
-                        APP description: Simulados OAB is a gamified app, a blog and an e-commerce. It is in the final stage of development. Enter the Simulated and test the interaction. I accept Feedbacks.
-                        Pay a visit to the application guided by me! Contact us to arrange. eduardo.srocha@hotmail.com
+                        APP Beschreibung: Simificados OAB ist eine gamifizierte App, ein Blog und ein E-Commerce. Es befindet sich in der letzten Entwicklungsphase. Geben Sie die Simulation ein und testen Sie die Interaktion. Ich akzeptiere Feedbacks. Besuchen Sie die von mir geleitete Bewerbung! Kontaktieren Sie uns, um dies zu arrangieren. eduardo.srocha@hotmail.com
                     </Typography>
                     <Link href="https://frontsimulados.rj.r.appspot.com/">
                         Simulados OAB
@@ -410,10 +405,10 @@ const XP = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant="subtitle1">
-                        Other Websites
+                        Verschiedene Websites
                     </Typography>
                     <Typography>
-                        Visit some of websites developed by me.
+                        Geben Sie die von mir entwickelten Websites ein.
                     </Typography>
                     <Link href="http://e-resultmais.com/">
                         Result+ {" "}
@@ -431,10 +426,10 @@ const XP = () => {
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant="subtitle1">
 
-                        Volunteer work
+                        Freiwilligenarbeit
                     </Typography>
                     <Typography>
-                        Get to know UFSM ABRAÇA. Project to which I was co-author. See the article that came out on Globo in Rio Grande do Sul - Santa Maria. (In Portuguese) </Typography>
+                        Lernen Sie UFSM ABRAÇA kennen. Projekt, an dem ich mitautor war. Siehe den Artikel, der auf Globo in Rio Grande do Sul - Santa Maria veröffentlicht wurde. </Typography>
                     <Link href="http://g1.globo.com/rs/rio-grande-do-sul/videos/t/todos-os-videos/v/alunos-e-professores-da-ufsm-criam-projeto-e-ajudam-escolas-publicas-de-santa-maria/7244509/">
                         Globe News
                     </Link>
@@ -450,23 +445,21 @@ const Goals = () => {
             <Grid container>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant="h4">
-                        Objective
+                        Tore
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant='body2'>
-                        Until that moment in my life for various reasons I saw in entrepreneurship a way out to study SI at UFSM full time and continue working as a web developer.
-                        Today I can dedicate myself to a formal job. I have a long experience as a web developer and I can contribute effectively to your team. I have the ability to manage myself, I am focused, I assume responsibilities without fear, I know how to talk to clients and I want to compose in a team managing or being managed.
-                     </Typography>
+                        Bis zu diesem Zeitpunkt in meinem Leben sah ich Unternehmertum aus verschiedenen Gründen als einen Ausweg, um SI an der UFSM in Vollzeit zu studieren und weiterhin als Webentwickler auf dem Arbeitsmarkt zu arbeiten. Heute kann ich mich einem formellen Job widmen. Ich habe eine lange Erfahrung als Webentwickler und kann effektiv zu Ihrem Team beitragen. Ich habe die Fähigkeit, mich selbst zu verwalten, ich bin konzentriert, ich übernehme Verantwortung ohne Angst, ich weiß, wie man mit Kunden spricht, und ich möchte in einem Team komponieren, das verwaltet oder verwaltet wird.   </Typography>
                     <Chip label="FullStack Pleno/Senior" style={{ margin: 5 }} />
                     <Chip label="FrontEnd Pleno/Senior" style={{ margin: 5 }} />
                     <Chip label="BackEnd Pleno/Senior" style={{ margin: 5 }} />
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
-                    <Chip color="secondary" label="availability to travel" style={{ margin: 5 }} />
-                    <Chip color="secondary" label="Passionate about developing applications from scratch" style={{ margin: 5 }} />
-                    <Chip color="secondary" label="API implementer" style={{ margin: 5 }} />
-                    <Chip color="secondary" label="Salary intention from $8,000.00" style={{ margin: 5 }} />
+                    <Chip color="secondary" label="Mit Verfügbarkeit zu reisen" style={{ margin: 5 }} />
+                    <Chip color="secondary" label="Leidenschaft für die Entwicklung von Anwendungen von Grund auf neu" style={{ margin: 5 }} />
+                    <Chip color="secondary" label="API-Implementierer" style={{ margin: 5 }} />
+                    <Chip color="secondary" label="Gehaltsabsicht ab $8,000.00" style={{ margin: 5 }} />
                 </Grid>
             </Grid>
         </div >
