@@ -355,7 +355,8 @@ const Languages = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={3} style={{ padding: 20 }}>
                     <Typography style={{ padding: 20 }}>
-                        Livres sterling
+
+                        langage des signes (LIBRA)
                     </Typography>
                     Alphabeto <ProgressLine level={100} />
                     Mots <ProgressLine level={20} />
@@ -379,7 +380,7 @@ const XP = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
                     <Typography variant='body1'>
-                        * Au cours de ma carrière, j'ai réalisé de nombreux projets. Développer Backend et FrontEnd, ainsi que la conception et les textes. J'ai mon propre CNPJ et jusqu'à présent j'ai travaillé sur des projets. Voici le lien des projets les plus complexes sur lesquels je travaille ou sur lesquels j'ai travaillé.
+                        * Au cours de ma carrière, j'ai réalisé de nombreux projets. Développer Backend et FrontEnd, ainsi que la conception et les textes. J'ai mon propre CNPJ et jusqu'à présent j'ai travaillé sur des projets. Vous trouverez ci-dessous des liens vers les projets les plus complexes sur lesquels je travaille ou sur lesquels j'ai travaillé.
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>

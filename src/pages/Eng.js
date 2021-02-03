@@ -382,7 +382,7 @@ const XP = () => {
                     <Typography variant='body1'>
                         * In my career, I carried out many projects. Developing Backend and FrontEnd, as well as Design and texts.
                         I have my own CNPJ and so far I have worked on projects.
-                        Here is the link of the most complex projects that I'm working on or that I've worked on.
+                        Below are links to the most complex projects that I am working on or that I have worked on.
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>

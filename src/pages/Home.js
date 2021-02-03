@@ -362,7 +362,7 @@ const Languages = () => {
                     <Typography style={{ padding: 20 }}>
                         Libras
                     </Typography>
-                    Alphabeto <ProgressLine level={100} />
+                    Alfabeto <ProgressLine level={100} />
                     Palavras <ProgressLine level={20} />
                 </Grid>
 
@@ -386,7 +386,7 @@ const XP = () => {
                     <Typography variant='body1'>
                         *Em minha trajetória, realizei muitos projetos. Desenvolvendo Backend e FrontEnd, além de Design e textos.
                         Tenho meu próprio CNPJ e Até o momento trabelhei por projetos.
-                        Segue aqui o Link dos projetos mais complexos que estou trabalhando ou que Trabalhei.
+                        Segue abaixo os Links dos projetos mais complexos que estou trabalhando ou que Trabalhei.
                     </Typography>
                 </Grid>
                 <Grid item xs={12} sm={12} md={12} style={{ padding: 20 }}>
